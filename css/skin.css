@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin : 0;
+    padding : 0;
+  font-family: "poppins";
+}
+
+
+section div {
+    display: flex;
+}
+
+section div .all {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap : 10px;
+     align-items: center;
+     justify-content: center;
+     margin: 40px;
+}
+.cardProd{
+    display: flex;
+ 
+    justify-content: center;
+
+}
+section div div .product {
+    border: 2px solid rgb(189, 189, 189);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section div div .product img {
+    width: 300px;
+object-fit: contain;   }
+
+section div div .product div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:5px;
+}
+
+section div div .product div a img {
+     width :50px;
+     height: 50px;
+     object-fit: cover;
+     border-radius: 5px;
+}
+
+section div div .product div p {
+    width:300px;
+}
+.product{
+    padding: 5px;
+    
+}

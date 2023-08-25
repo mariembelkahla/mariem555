@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+text-decoration: none;
+font-family: "poppins";
+}
+
+nav{
+background-color: rgb(253, 242, 242);
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-left: 100px;
+margin-right : 100px;
+}
+
+nav img {
+width :200px;
+object-fit: contain;
+}
+
+nav .nav2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.presetation 
+{
+font-size: 22px;
+text-align: center;
+color: brown;
+}
+.presetationbloc{
+    display: block;
+    margin-bottom: 80px;
+   margin-left: 100px;
+   margin-right: 100px;
+}
+h1{
+    text-align: center;
+}
+.skin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap:30px;  
+}
+
+nav .nav2 a {
+    text-decoration: none;
+}
+
+.skin .tableau {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.skin .tableau div img {
+    width :100px;
+    height : 100px;
+    object-fit: cover;
+}
+
+.skin .buttons {
+    display: flex;
+    gap:50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.skin .buttons a {
+    text-decoration: none;
+    background-color: rosybrown;
+    color :rgb(255, 255, 255);
+    padding-left : 30px;
+    padding-right: 30px;
+    font-weight: 500;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+}
+
+.contactrow {
+    display: flex;
+    justify-content:space-between;
+    align-items: start;
+    gap : 60px;
+    padding: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-top: solid 1px rgb(216, 216, 216);
+
+}
+
+.contactrow div {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    gap: 20px;
+}
+
+.contactrow div img {
+    width :200px;
+    object-fit: contain;
+}
+
+.contactrow div a {
+    text-decoration: none;
+}
+
+.type div {
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.type div p {
+    width: 700px;
+}
+
+
+.button-18 {
+  align-items: center;
+  background-color: #db9191;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+a {
+    color: #000000;
+  
+}
+
+.button-18:hover,
+.button-18:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.button-18:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
